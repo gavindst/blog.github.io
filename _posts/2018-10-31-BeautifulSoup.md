@@ -9,15 +9,14 @@ tags: [Python,Scrapy]
 ---
 # 快速开始
 
-'''
-from bs4 import BeautifulSoup
-soup = BeautifulSoup(html_doc, 'html.parser')
-print(soup.title)
-print(soup.title.name)
-print(soup.title.string)
-> 找到文档中所有a标签的href链接
-for link in soup.find_all('a'):
-	print(link.get('href'))
-'''
-
+- from bs4 import BeautifulSoup
+- soup = BeautifulSoup(html_doc, 'html.parser')
+- print(soup.title)
+- print(soup.title.name)
+- print(soup.title.string)
+- 找到文档中所有a标签的href链接
+- for link in soup.find_all('a'):
+- 	print(link.get('href'))
+# 未完待续
+# 看来要先好好学下markdown语法了
 
