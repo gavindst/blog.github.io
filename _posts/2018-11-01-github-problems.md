@@ -10,7 +10,7 @@ tags: [Github,Problems]
 # 解决方法
 
 因为dns污染所以无法正常访问github,所以最简单的方式就是更改hosts文件，
-不去请求dns服务器，直接访问ip地址
+不去请求dns服务器，直接访问hosts文件中的ip地址
 
 1. 更改/etc/hosts文件
 - github.com

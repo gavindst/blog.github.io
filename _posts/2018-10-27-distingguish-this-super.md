@@ -75,12 +75,12 @@ this相当于指向当前对象本身
 }
 
 ### 引用构造函数
-
 - super(参数)参数可以没有，或者是任意个，且super和this语句必须放在构造函数的第一行，下同，
 - 调用父类的某一个构造函数(某一个指的是参数相同的构造函数)
 - this(参数)调用本类的另一种形式的构造函数
    
----
+'''
+
 	class Person { 
 		public static void prt(String s) { 
 		System.out.println(s); 
@@ -122,13 +122,13 @@ this相当于指向当前对象本身
 
 运行结果：
 
-> 父类·无参数构造方法： A Person.
-> 子类·调用父类”无参数构造方法“： A chinese coder.
-> 父类·含一个参数的构造方法： A person's name is codersai
-> 子类·调用父类”含一个参数的构造方法“： his name is codersai
-> 父类·含一个参数的构造方法： A person's name is codersai
-> 子类·调用父类”含一个参数的构造方法“： his name is codersai
-> 子类：调用子类具有相同形参的构造方法：his age is 18
+	父类·无参数构造方法： A Person.
+	子类·调用父类”无参数构造方法“： A chinese coder.
+	父类·含一个参数的构造方法： A person's name is codersai
+	子类·调用父类”含一个参数的构造方法“： his name is codersai
+	父类·含一个参数的构造方法： A person's name is codersai
+	子类·调用父类”含一个参数的构造方法“： his name is codersai
+	子类：调用子类具有相同形参的构造方法：his age is 18
 
 ### 从本例可以看到，可以用super和this分别调用父类的构造方法和本类中其他形式的构造方法。
 
